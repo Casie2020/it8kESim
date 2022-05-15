@@ -8,7 +8,8 @@ MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
 {
-    this->setWindowTitle("IT8000E Simulator");
+
+
     ui->setupUi(this);
 
     ui->buttonTCPServer->setText("Offline");
